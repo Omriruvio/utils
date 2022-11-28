@@ -7,8 +7,8 @@ import { Button } from './Button';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: 'Button',
-  component: Button,
+  title: 'Button', // name of the story
+  component: Button, // component to be used
 };
 
 export const Primary = () => <Button backgroundColor='#ff0' label='Button' />;
